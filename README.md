@@ -6,6 +6,15 @@
   React ❤️styled component ❤️Jest ❤️webpack ❤️ JavaScript Standard Style ❤️stylelint
 </p>
 
+<p align="center">
+  <a href="https://travis-ci.org">
+    <img alt="Travis build status" src="https://api.travis-ci.org/marco-streng/react-boilerplate.svg?branch=master">
+  </a>
+  <a href="https://standardjs.com">
+    <img alt="JavaScript Standard Style" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+  </a>
+</p>
+
 ## Motivation
 
 First of all: I love [create-react-app](https://github.com/facebook/create-react-app).  It's a fantastic tool, especially if you use it the way it's intended. 
