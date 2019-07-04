@@ -25,7 +25,7 @@ I want to understand what happens under the hood, understand what webpack does. 
 
 ## Usage
 
-↗️ **Click the geen "Use this template" button in the top right corner.**
+↗️ **Click the green "Use this template" button in the top right corner.**
 
 Alternative way:
 
