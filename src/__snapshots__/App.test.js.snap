@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App default 1`] = `
+<header
+  className="Header-c0you6-0 fHRqKy"
+>
+  Boilerplate
+</header>
+`;
