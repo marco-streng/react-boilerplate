@@ -23,6 +23,17 @@ In my case I like to work with [styled component](https://www.styled-components.
 
 I want to understand what happens under the hood, understand what webpack does. I want to learn, try out, be flexible.
 
+## Usage
+
+↗️ **Click the geen "Use this template" button in the top right corner.**
+
+Alternative way:
+
+```
+$ mkdir boilerplate && cd boilerplate
+$ curl -fsSL https://github.com/marco-streng/react-boilerplate/archive/master.tar.gz | tar -xz --strip-components 1
+```
+
 ## Resources
 
 * https://reactjs.org/
