@@ -10,7 +10,7 @@
 
 First of all: I love [create-react-app](https://github.com/facebook/create-react-app).  It's a fantastic tool, especially if you use it the way it's intended. 
 
-In my case I like to work with [styled component](https://www.styled-components.com/) and [Standard](https://standardjs.com/). This is of course also possible with CRA via detours (e.g. [react-app-rewired](https://github.com/timarney/react-app-rewired)) , but CRA loses something of its advantage and concept.
+In my case I like to work with [styled component](https://www.styled-components.com/) and [Standard](https://standardjs.com/). This is of course also possible with CRA via detours (e.g. [react-app-rewired](https://github.com/timarney/react-app-rewired)), but CRA loses something of its advantage and concept.
 
 I want to understand what happens under the hood, understand what webpack does. I want to learn, try out, be flexible.
 
