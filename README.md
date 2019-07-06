@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/marco-streng/react-boilerplate/master/logo.png" width="256" alt="Dashboard">
+</p>
+
 <h1 align="center">
    🚧 React Boilerplate [WIP] 🏗
 </h1>
