@@ -1,6 +1,7 @@
 const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const StyleLintPlugin = require('stylelint-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
 const Dotenv = require('dotenv-webpack')
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
@@ -29,7 +30,7 @@ module.exports = {
     ]
   },
   output: {
-    path: path.join(__dirname, '..', BUILD_FOLDER)
+    path: path.join(__dirname, '..', '..', BUILD_FOLDER)
   },
   plugins: [
     new webpack.EnvironmentPlugin(['NODE_ENV']),
@@ -40,9 +41,20 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Dashboard',
-      favicon: 'src/static/favicon.ico',
+      favicon: 'src/static/icons/favicon.ico',
       template: 'src/index.html'
     }),
+    new CopyPlugin([
+      {
+        from: path.join(__dirname, '..', '..', 'src', 'static', 'icons'),
+        to: path.join(__dirname, '..', '..', BUILD_FOLDER, 'static', 'icons'),
+        ignore: ['*.ico']
+      },
+      {
+        from: path.join(__dirname, '..', '..', 'src', 'manifest.json'),
+        to: path.join(__dirname, '..', '..', BUILD_FOLDER)
+      }
+    ]),
     new StyleLintPlugin({
       files: 'src/**/*.js'
     })

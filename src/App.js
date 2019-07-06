@@ -2,6 +2,8 @@
 import { hot } from 'react-hot-loader/root'
 import React from 'react'
 
+import { registerServiceWorker } from './lib/serviceWorker'
+
 import Styled from './Styled'
 import Header from './components/Header'
 
@@ -10,5 +12,7 @@ const App = () => (
     <Header />
   </Styled>
 )
+
+registerServiceWorker()
 
 export default hot(App)
