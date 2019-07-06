@@ -10,8 +10,7 @@
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "standard --verbose | snazzy",
     "lint:styles": "stylelint 'src/**/*.js'",
-    "test": "cross-env jest --config config/jest/jest.config.js",
-    "test:e2e": "cypress"
+    "test": "cross-env jest --config config/jest/jest.config.js"
   },
   "repository": {
     "type": "git",
