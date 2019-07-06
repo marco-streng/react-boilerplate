@@ -1,9 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App default 1`] = `
-<header
-  className="Header-sc-1us8icj-0 fZVjFj"
->
-  Boilerplate
-</header>
+Array [
+  <header
+    className="Header-sc-1us8icj-0 LPOeQ"
+  >
+    🚧 React Boilerplate [WIP] 🏗
+  </header>,
+  <img
+    alt="Boilerplate"
+    className="App__Logo-sc-6uwloo-0 ckpFJD"
+    src={Object {}}
+  />,
+  <div
+    className="App__Center-sc-6uwloo-1 hzVypc"
+  >
+    <p>
+      React ❤️styled component ❤️Jest ❤️webpack ❤️ JavaScript Standard Style ❤️stylelint
+    </p>
+    <a
+      className="LinkButton-sc-16kn36j-0 gkgpAP"
+      href="https://github.com/marco-streng/react-boilerplate"
+      target="_blank"
+    >
+      GitHub
+    </a>
+  </div>,
+]
 `;
