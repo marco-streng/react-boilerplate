@@ -6,6 +6,12 @@ import theme from './theme'
 
 const GlobalStyle = createGlobalStyle`
   ${normalize()}
+
+  body {
+    color: ${props => props.theme.palette.textColor};
+    font-family: sans-serif;
+    font-size: 15px;
+  }
 `
 
 export default ({ children }) => (
