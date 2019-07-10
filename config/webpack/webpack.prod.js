@@ -14,7 +14,8 @@ module.exports = merge(common, {
       // start controlling any existing clients as soon as it activates
       clientsClaim: true,
       // skip over the waiting lifecycle stage
-      skipWaiting: true
+      skipWaiting: true,
+      swDest: 'service-worker.js'
     })
   ]
 })
