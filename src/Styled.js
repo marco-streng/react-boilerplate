@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { normalize } from 'polished'
 
@@ -16,9 +16,9 @@ const GlobalStyle = createGlobalStyle`
 
 export default ({ children }) => (
   <ThemeProvider theme={theme}>
-    <Fragment>
+    <>
       {children}
       <GlobalStyle />
-    </Fragment>
+    </>
   </ThemeProvider>
 )
