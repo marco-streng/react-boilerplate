@@ -45,7 +45,7 @@ $ curl -fsSL https://github.com/marco-streng/react-boilerplate/archive/master.ta
 
 You can run the following built-in commands via `npm run [command]` or `yarn [command]`:
 
-* `dev` - Runs the app in development mode on port [3000](http://localhost:3000).
+* `dev` - Runs the app in development mode on port [8080](http://localhost:8080).
 * `build` - Builds the app for production to the `build` folder.
 * `lint` - Runs `lint:js` and `lint:styles` in parallel.
 * `lint:js` - Lint the JavaScript code.
