@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org">
-    <img alt="Travis build status" src="https://api.travis-ci.org/marco-streng/react-boilerplate.svg?branch=master">
+  <a href="https://github.com/marco-streng/react-boilerplate/actions">
+    <img alt="Node CI build status" src="https://github.com/marco-streng/react-boilerplate/workflows/Node%20CI/badge.svg">
   </a>
   <a href="https://standardjs.com">
     <img alt="JavaScript Standard Style" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
