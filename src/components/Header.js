@@ -12,5 +12,5 @@ const Header = styled.header`
 `
 
 export default () => (
-  <Header>React Boilerplate 🏗</Header>
+  <Header>React Boilerplate</Header>
 )

@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-   React Boilerplate 🏗
+   React Boilerplate
 </h1>
 
 <p align="center">
