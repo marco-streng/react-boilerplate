@@ -8,6 +8,7 @@
     "stylelint-config-styled-components"
   ],
   "rules": {
-    "order/properties-alphabetical-order": true
+    "order/properties-alphabetical-order": true,
+    "value-keyword-case": null
   }
 }
