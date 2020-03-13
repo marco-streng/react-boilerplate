@@ -31,7 +31,7 @@
     "polished": "^3.4.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "regenerator-runtime": "^0.13.3",
+    "regenerator-runtime": "^0.13.5",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
