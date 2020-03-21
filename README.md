@@ -14,6 +14,9 @@
   <a href="https://github.com/marco-streng/react-boilerplate/actions">
     <img alt="Node CI build status" src="https://github.com/marco-streng/react-boilerplate/workflows/Node%20CI/badge.svg">
   </a>
+  <a href="https://app.netlify.com/sites/marco-streng-react-boilerplate/deploys">
+    <img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/5ae8824f-663f-46c2-a049-292f56492f8e/deploy-status">
+  </a>
   <a href="https://standardjs.com">
     <img alt="JavaScript Standard Style" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
   </a>
