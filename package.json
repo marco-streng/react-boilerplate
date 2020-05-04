@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/marco-streng/react-boilerplate#readme",
   "dependencies": {
-    "polished": "^3.5.2",
+    "polished": "^3.6.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "regenerator-runtime": "^0.13.5",
