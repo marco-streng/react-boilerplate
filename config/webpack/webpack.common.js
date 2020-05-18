@@ -52,17 +52,21 @@ module.exports = {
       favicon: 'src/static/icons/favicon.ico',
       template: 'src/index.html'
     }),
-    new CopyPlugin([
-      {
-        from: path.join(__dirname, '..', '..', 'src', 'static', 'icons'),
-        to: path.join(__dirname, '..', '..', BUILD_FOLDER, 'static', 'icons'),
-        ignore: ['*.ico']
-      },
-      {
-        from: path.join(__dirname, '..', '..', 'src', 'manifest.json'),
-        to: path.join(__dirname, '..', '..', BUILD_FOLDER)
-      }
-    ]),
+    new CopyPlugin({
+      patterns: [
+        {
+          from: path.join(__dirname, '..', '..', 'src', 'static', 'icons'),
+          to: path.join(__dirname, '..', '..', BUILD_FOLDER, 'static', 'icons'),
+          globOptions: {
+            ignore: ['**/favicon.ico']
+          }
+        },
+        {
+          from: path.join(__dirname, '..', '..', 'src', 'manifest.json'),
+          to: path.join(__dirname, '..', '..', BUILD_FOLDER)
+        }
+      ]
+    }),
     new StyleLintPlugin({
       files: 'src/**/*.js'
     })
