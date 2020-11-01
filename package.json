@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack/webpack.dev.js",
+    "dev": "cross-env NODE_ENV=development webpack-cli serve --config config/webpack/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack/webpack.prod.js",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "standard --verbose | snazzy",
