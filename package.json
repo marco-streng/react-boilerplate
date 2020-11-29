@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack/webpack.dev.js",
+    "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack/webpack.prod.js",
     "lint": "npm-run-all --parallel lint:*",
     "lint:js": "standard src --verbose | snazzy",
@@ -68,7 +68,7 @@
     "stylelint-processor-styled-components": "^1.10.0",
     "stylelint-webpack-plugin": "^2.1.1",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.1.0",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^5.4.0",
     "workbox-webpack-plugin": "^5.1.4"
