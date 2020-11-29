@@ -3,23 +3,23 @@
 exports[`App default 1`] = `
 Array [
   <header
-    className="Header-sc-1us8icj-0 LPOeQ"
+    className="Header-sc-1us8icj-0 gSTpjM"
   >
     React Boilerplate
   </header>,
   <img
     alt="Boilerplate"
-    className="App__Logo-sc-6uwloo-0 ckpFJD"
+    className="App__Logo-sc-6uwloo-0 bAwzNB"
     src={Object {}}
   />,
   <div
-    className="App__Center-sc-6uwloo-1 hzVypc"
+    className="App__Center-sc-6uwloo-1 crVkKA"
   >
     <p>
       React ❤️styled component ❤️Jest ❤️webpack ❤️ JavaScript Standard Style ❤️stylelint
     </p>
     <a
-      className="LinkButton-sc-16kn36j-0 gkgpAP"
+      className="LinkButton-sc-16kn36j-0 bgDtbx"
       href="https://github.com/marco-streng/react-boilerplate"
       target="_blank"
     >
