@@ -69,4 +69,4 @@ You can run the following built-in commands via `npm run [command]` or `yarn [co
 
 ## License
 
-Copyright (c) 2020-present Marco Streng. See [LICENSE](./LICENSE.md) for details.
+Copyright (c) 2021-present Marco Streng. See [LICENSE](./LICENSE.md) for details.
