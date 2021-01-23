@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import { normalize } from 'polished'
 
@@ -8,13 +9,13 @@ const GlobalStyle = createGlobalStyle`
   ${normalize()}
 
   body {
-    color: ${props => props.theme.palette.textColor};
+    color: ${(props) => props.theme.palette.textColor};
     font-family: sans-serif;
     font-size: 15px;
   }
 `
 
-export default ({ children }) => (
+const StyledWrapper = ({ children }) => (
   <ThemeProvider theme={theme}>
     <>
       {children}
@@ -22,3 +23,9 @@ export default ({ children }) => (
     </>
   </ThemeProvider>
 )
+
+StyledWrapper.propTypes = {
+  children: PropTypes.node
+}
+
+export default StyledWrapper

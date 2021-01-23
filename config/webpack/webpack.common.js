@@ -20,7 +20,7 @@ module.exports = {
         enforce: 'pre',
         test: /\.js?$/,
         exclude: /node_modules/,
-        loader: 'standard-loader'
+        loader: 'eslint-loader'
       },
       {
         test: /\.js$/,

@@ -5,7 +5,8 @@
   ],
   "extends": [
     "stylelint-config-standard",
-    "stylelint-config-styled-components"
+    "stylelint-config-styled-components",
+    "stylelint-config-prettier"
   ],
   "rules": {
     "order/properties-alphabetical-order": true,

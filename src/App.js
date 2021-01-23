@@ -26,8 +26,16 @@ const App = () => (
     <Header />
     <Logo src={logoSrc} alt='Boilerplate' />
     <Center>
-      <p>React ❤️styled component ❤️Jest ❤️webpack ❤️ JavaScript Standard Style ❤️stylelint</p>
-      <LinkButton href='https://github.com/marco-streng/react-boilerplate' target='_blank'>GitHub</LinkButton>
+      <p>
+        React ❤️ styled component ❤️ Jest ❤️webpack ❤️ ESLint ❤️ stylelint ❤️
+        Prettier
+      </p>
+      <LinkButton
+        href='https://github.com/marco-streng/react-boilerplate'
+        target='_blank'
+      >
+        GitHub
+      </LinkButton>
     </Center>
   </Styled>
 )

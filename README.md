@@ -42,7 +42,7 @@ I want to understand what happens under the hood, understand what webpack does. 
 
 Alternative way:
 
-``` bash
+```bash
 $ mkdir boilerplate && cd boilerplate
 $ curl -fsSL https://github.com/marco-streng/react-boilerplate/archive/master.tar.gz | tar -xz --strip-components 1
 ```
@@ -51,21 +51,21 @@ $ curl -fsSL https://github.com/marco-streng/react-boilerplate/archive/master.ta
 
 You can run the following built-in commands via `npm run [command]` or `yarn [command]`:
 
-* `dev` - Runs the app in development mode on port [8080](http://localhost:8080).
-* `build` - Builds the app for production to the `build` folder.
-* `lint` - Runs `lint:js` and `lint:styles` in parallel.
-* `lint:js` - Lint the JavaScript code.
-* `lint:styles` - Lint the styling.
-* `test` - Runs the tests.
+- `dev` - Runs the app in development mode on port [8080](http://localhost:8080).
+- `build` - Builds the app for production to the `build` folder.
+- `lint` - Runs `lint:js` and `lint:styles` in parallel.
+- `lint:js` - Lint the JavaScript code.
+- `lint:styles` - Lint the styling.
+- `test` - Runs the tests.
 
 ## Resources
 
-* https://reactjs.org/
-* https://www.styled-components.com/
-* https://jestjs.io/
-* https://webpack.js.org/
-* https://standardjs.com/
-* https://stylelint.io/
+- https://reactjs.org/
+- https://www.styled-components.com/
+- https://jestjs.io/
+- https://webpack.js.org/
+- https://standardjs.com/
+- https://stylelint.io/
 
 ## License
 

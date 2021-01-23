@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Header = styled.header`
-  background: ${props => props.theme.palette.header.backgroundColor};
-  color: ${props => props.theme.palette.header.textColor};
+const StyledHeader = styled.header`
+  background: ${(props) => props.theme.palette.header.backgroundColor};
+  color: ${(props) => props.theme.palette.header.textColor};
   font-size: 14pt;
   font-weight: bold;
   padding: 20px;
@@ -11,6 +11,6 @@ const Header = styled.header`
   text-transform: uppercase;
 `
 
-export default () => (
-  <Header>React Boilerplate</Header>
-)
+const Header = () => <StyledHeader>React Boilerplate</StyledHeader>
+
+export default Header

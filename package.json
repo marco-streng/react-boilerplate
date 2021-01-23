@@ -8,8 +8,10 @@
     "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack/webpack.dev.js",
     "build": "cross-env NODE_ENV=production webpack --config config/webpack/webpack.prod.js",
     "lint": "npm-run-all --parallel lint:*",
-    "lint:js": "standard src --verbose | snazzy",
-    "lint:styles": "stylelint 'src/**/*.js'",
+    "lint:js": "cross-env eslint 'src/**/*.js'",
+    "lint:styles": "cross-env stylelint 'src/**/*.js'",
+    "format": "cross-env prettier --write 'src/**/*.js'",
+    "format:check": "cross-env prettier --check 'src/**/*.js'",
     "test": "cross-env jest --config config/jest/jest.config.js"
   },
   "repository": {
@@ -49,19 +51,30 @@
     "core-js": "^3.8.3",
     "cross-env": "^7.0.3",
     "dotenv-webpack": "^6.0.0",
-    "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.6",
-    "enzyme-to-json": "^3.6.1",
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jest-dom": "^3.6.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-testing-library": "^3.10.1",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^4.5.1",
+    "husky": "^4.3.8",
     "jest": "^26.6.3",
+    "lint-staged": "^10.5.3",
     "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
     "react-hot-loader": "^4.13.0",
     "react-test-renderer": "^17.0.1",
     "snazzy": "^9.0.0",
-    "standard": "^16.0.3",
-    "standard-loader": "^7.0.0",
     "stylelint": "^13.9.0",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-order": "^4.1.0",
@@ -73,10 +86,16 @@
     "webpack-merge": "^5.7.3",
     "workbox-webpack-plugin": "^6.0.2"
   },
-  "standard": {
-    "parser": "babel-eslint",
-    "env": [
-      "jest"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "./src/**/*.js": [
+      "stylelint",
+      "eslint",
+      "prettier --write"
     ]
   }
 }
