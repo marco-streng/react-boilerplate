@@ -3,7 +3,7 @@
 exports[`App default 1`] = `
 Array [
   <header
-    className="Header-sc-1us8icj-0 gSTpjM"
+    className="Header__StyledHeader-sc-1us8icj-0 cjjTAo"
   >
     React Boilerplate
   </header>,
@@ -16,7 +16,7 @@ Array [
     className="App__Center-sc-6uwloo-1 crVkKA"
   >
     <p>
-      React ❤️styled component ❤️Jest ❤️webpack ❤️ JavaScript Standard Style ❤️stylelint
+      React ❤️ styled component ❤️ Jest ❤️webpack ❤️ ESLint ❤️ stylelint ❤️ Prettier
     </p>
     <a
       className="LinkButton-sc-16kn36j-0 bgDtbx"
