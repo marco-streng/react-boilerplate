@@ -46,7 +46,7 @@
     "babel-plugin-styled-components": "^1.13.3",
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^9.0.1",
-    "core-js": "^3.19.1",
+    "core-js": "^3.19.3",
     "cross-env": "^7.0.3",
     "dotenv-webpack": "^7.0.3",
     "enzyme": "^3.11.0",
