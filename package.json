@@ -45,7 +45,7 @@
     "babel-plugin-dynamic-import-node": "^2.3.3",
     "babel-plugin-styled-components": "^1.13.3",
     "clean-webpack-plugin": "^4.0.0",
-    "copy-webpack-plugin": "^9.0.1",
+    "copy-webpack-plugin": "^10.1.0",
     "core-js": "^3.19.3",
     "cross-env": "^7.0.3",
     "dotenv-webpack": "^7.0.3",
